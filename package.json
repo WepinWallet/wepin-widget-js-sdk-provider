@@ -1,0 +1,41 @@
+{
+  "name": "@wepin/provider",
+  "version": "0.0.1-alpha",
+  "description": "Wepin Provider Widget SDK for Web",
+  "main": "./dist/wepin-provider.umd.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "author": "IoTrust, Co., Ltd.",
+  "homepage": "https://github.com/WepinWallet/wepin-widget-js-sdk-provider",
+  "keywords": [
+    "wepin",
+    "wepinwallet",
+    "wallet",
+    "web3",
+    "ethereum",
+    "provider"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WepinWallet/wepin-widget-js-sdk-provider.git"
+  },
+  "dependencies": {
+    "eth-json-rpc-middleware": "^9.0.1",
+    "json-rpc-engine": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "node-stdlib-browser": "^1.2.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-node-stdlib-browser": "^0.1.1"
+  }
+}
