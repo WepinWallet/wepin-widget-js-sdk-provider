@@ -13,11 +13,13 @@ The providers supported by Wipin are as follows.
 Ethers.js or Web3.js can be used with Wepin Provider to interoperate with EVM compatible blockchains.
 
 ### Support Networks
-| Chain ID | Network |
-|-|-|
-| 1 | ethereum |
-| 5 | evmeth-goerli |
-| 19 | evmsongbird |
+| Chain ID | Network Name | Network Variable |
+|-|-|-|
+| 1 | Ethereum Mainnet | ethereum |
+| 5 | Ethereum Goerli Testnet | evmeth-goerli |
+| 19 | Songbird Canary Network | evmsongbird |
+| 137 | Polygon Mainnet | evmpolygon |
+| 80001 | Polygon Mumbai | evmpolygon-testnet |
 
 ### Install 
 First, import `@wepin/widget-sdk` and `@wepin/provider` into the project.

@@ -1,6 +1,6 @@
 {
   "name": "@wepin/provider",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2-alpha",
   "description": "Wepin Provider Widget SDK for Web",
   "main": "./dist/wepin-provider.umd.js",
   "scripts": {
