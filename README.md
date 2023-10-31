@@ -13,15 +13,17 @@ The providers supported by Wipin are as follows.
 Ethers.js or Web3.js can be used with Wepin Provider to interoperate with EVM compatible blockchains.
 
 ### Support Networks
-| Chain ID | Network Name | Network Variable |
-|-|-|-|
-| 1 | Ethereum Mainnet | ethereum |
-| 5 | Ethereum Goerli Testnet | evmeth-goerli |
-| 19 | Songbird Canary Network | evmsongbird |
-| 137 | Polygon Mainnet | evmpolygon |
-| 80001 | Polygon Mumbai | evmpolygon-testnet |
+| Chain ID | Network Name            | Network Variable   |
+| -------- | ----------------------- | ------------------ |
+| 1        | Ethereum Mainnet        | ethereum           |
+| 5        | Ethereum Goerli Testnet | evmeth-goerli      |
+| 19       | Songbird Canary Network | evmsongbird        |
+| 137      | Polygon Mainnet         | evmpolygon         |
+| 1001     | Klaytn Testnet          | klaytn-testnet     |
+| 8217     | Klaytn Mainnet          | klaytn             |
+| 80001    | Polygon Mumbai          | evmpolygon-testnet |
 
-### Install 
+### Install
 First, import `@wepin/widget-sdk` and `@wepin/provider` into the project.
 You must import `@wepin/widget-sdk` widget-sdk first.
 ```javascript
@@ -37,11 +39,11 @@ const accounts = await web3.eth.getAccounts()
 ```
 
 - **Get Balance**
-account 정보를 이용해 balance를 조회할 수 있습니다.
+You can get account's balance using your account information.
 ```javascript
 const balance = await web3.eth.getBalance(accounts[0])
 ```
-아래 링크를 참고하여 Balance 뿐만 아니라 fee 정보, block number 등을 조회할 수 있습니다.
+You can refer to the link below to check balance as well as fee information, block number, etc.
 
 Document: [web3.js 1.0.0 documentation](https://web3js-kr.readthedocs.io/ko/latest/getting-started.html)
 

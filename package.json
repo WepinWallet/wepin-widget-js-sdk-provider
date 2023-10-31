@@ -1,8 +1,9 @@
 {
   "name": "@wepin/provider",
-  "version": "0.0.3-alpha",
+  "version": "0.0.4-alpha",
   "description": "Wepin Provider Widget SDK for Web",
   "main": "./dist/wepin-provider.umd.js",
+  "types": "./dist/wepin-provider.d.ts",
   "scripts": {
     "build": "vite build"
   },
@@ -36,6 +37,7 @@
     "prettier": "^2.8.4",
     "typescript": "^4.9.5",
     "vite": "^4.1.1",
+    "vite-plugin-dts": "^3.5.3",
     "vite-plugin-node-stdlib-browser": "^0.1.1"
   }
 }
