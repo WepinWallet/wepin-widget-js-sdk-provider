@@ -3,3 +3,4 @@ export interface CreateWepinMiddlewareOptions {
     wepin: any;
     network?: SupportedChains;
 }
+export * from './BaseProvider';

@@ -1,4 +1,4 @@
-type WepinCommand = 'ready_to_widget' | 'initialized_widget' | 'set_accounts' | 'close_wepin_widget' | 'request_enable' | 'sign_transaction' | 'send_transaction' | 'sign_typed_data' | 'sign';
+type WepinCommand = 'ready_to_widget' | 'initialized_widget' | 'set_accounts' | 'close_wepin_widget' | 'request_enable' | 'sign_transaction' | 'send_transaction' | 'sign_typed_data' | 'sign' | 'wallet_switchEthereumChain';
 export interface WebviewReqestMessage {
     header: {
         request_from: 'wepin_widget';
