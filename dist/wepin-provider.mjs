@@ -1351,7 +1351,7 @@ const sc = ({ wepin: e, network: t }) => (n, i, s, r) => {
     [`0x${19 .toString(16)}`]: "evmsongbird",
     [`0x${137 .toString(16)}`]: "evmpolygon",
     [`0x${1001 .toString(16)}`]: "klaytn-testnet",
-    [`0x${8217 .toString(16)}`]: "klaytn-testnet",
+    [`0x${8217 .toString(16)}`]: "klaytn",
     [`0x${80001 .toString(16)}`]: "evmpolygon-testnet"
   }[e];
 }, Yp = ({ wepin: e, network: t }) => (n, i, s, r) => {
@@ -30478,7 +30478,7 @@ class Sf extends Xp {
     return window.evmproviders = window.evmproviders || {}, window.evmproviders[n.name] = n, window.evmproviders[n.name].selectedAddress = t.address, n;
   }
 }
-const oE = "@wepin/provider", sE = "0.0.4-alpha", uE = "Wepin providers for Web SDK", cE = "./dist/wepin-provider.umd.js", hE = "./dist/wepin-provider.d.ts", lE = {
+const oE = "@wepin/provider", sE = "0.0.5-alpha", uE = "Wepin providers for Web SDK", cE = "./dist/wepin-provider.umd.js", hE = "./dist/wepin-provider.d.ts", lE = {
   build: "vite build"
 }, dE = "https://github.com/IotrustGitHub/wepin-js-sdk-provider.git", pE = "IOTrust", vE = "MIT", bE = {
   "eth-json-rpc-middleware": "^9.0.1",
