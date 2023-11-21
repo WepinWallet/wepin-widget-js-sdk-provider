@@ -1,4 +1,14 @@
 # @wepin/provider
+
+<div>
+  <!-- NPM Version -->
+  <a href="https://www.npmjs.org/package/@wepin/provider">
+    <img src="http://img.shields.io/npm/v/@wepin/provider.svg"
+    alt="NPM version" />
+  </a>
+</div>
+<br />
+
 Wepin Provider Widget SDK for Web.
 
 This package is only available in the web environment. It cannot be used in Android and iOS apps(Webview).
@@ -13,15 +23,16 @@ The providers supported by Wipin are as follows.
 Ethers.js or Web3.js can be used with Wepin Provider to interoperate with EVM compatible blockchains.
 
 ### Support Networks
-| Chain ID | Network Name            | Network Variable   |
-| -------- | ----------------------- | ------------------ |
-| 1        | Ethereum Mainnet        | ethereum           |
-| 5        | Ethereum Goerli Testnet | evmeth-goerli      |
-| 19       | Songbird Canary Network | evmsongbird        |
-| 137      | Polygon Mainnet         | evmpolygon         |
-| 1001     | Klaytn Testnet          | klaytn-testnet     |
-| 8217     | Klaytn Mainnet          | klaytn             |
-| 80001    | Polygon Mumbai          | evmpolygon-testnet |
+| Chain ID | Network Name                                              | Network Variable       |
+| -------- | --------------------------------------------------------- | ---------------------- |
+| 1        | Ethereum Mainnet                                          | ethereum               |
+| 5        | Ethereum Goerli Testnet                                   | evmeth-goerli          |
+| 19       | Songbird Canary Network                                   | evmsongbird            |
+| 137      | Polygon Mainnet                                           | evmpolygon             |
+| 1001     | Klaytn Testnet                                            | klaytn-testnet         |
+| 8217     | Klaytn Mainnet                                            | klaytn                 |
+| 80001    | Polygon Mumbai                                            | evmpolygon-testnet     |
+| 2731     | TimeNetwork Testnet(Support from version `0.0.6-alpha`)   | evmtimenetwork-testnet |
 
 ### Install
 First, import `@wepin/widget-sdk` and `@wepin/provider` into the project.
