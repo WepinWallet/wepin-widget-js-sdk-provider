@@ -1,3 +1,32 @@
+# <div align="center">‼️ Notice: This repository is deprecated. ‼️</div>
+
+<div align="center"> Please use <a href="https://github.com/WepinWallet/wepin-widget-js-sdk">@wepin/widget-sdk</a> instead </div>
+
+---
+
+In order to incorporate the latest updates and manage the library more efficiently, we have integrated the functionality of the this repository into `@wepin/widget-sdk`. 
+This means that instead of using `@wepin/provider` separately, you can now leverage the new features provided by `@wepin/widget-sdk`.
+
+## Summary of Changes
+
+- `@wepin/provider` is no longer used as a standalone package.
+- Explore new features and updates through `@wepin/widget-sdk`.
+
+## Migration Guide
+
+If you were using `@wepin/provider`, follow these steps to migrate:
+
+1. **Remove `@wepin/provider`**
+   ```bash
+   npm remove @wepin/provider
+   ```
+2. **Update `@wepin/widget-sdk` to the latest version.**
+   ```bash
+   npm install @wepin/widget-sdk@latest
+   ```
+
+---
+
 # @wepin/provider
 
 <div>
